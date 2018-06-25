@@ -7,7 +7,7 @@ public class MainVerticle extends AbstractVerticle {
 
     @Override
     public void start(Future<Void> startFuture) {
-
+        startFuture.complete(); // Called once the Vertical is ready
     }
 
 }
